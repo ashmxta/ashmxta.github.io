@@ -31,11 +31,11 @@ $(document).ready(function(){
     });
 });
 
-// protfolio filters
+// portfolio filters
 $(window).on("load", function() {
     var t = $(".portfolio-container");
     t.isotope({
-        filter: ".new",
+        filter: ".programming",
         animationOptions: {
             duration: 750,
             easing: "linear",
