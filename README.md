@@ -5,8 +5,7 @@ This is a minimalist personal website built using HTML and CSS to showcase my ac
 ## 🛠️ Built With
 - **HTML5** for content structure  
 - **CSS3** for styling and layout  
-- [Font Awesome](https://fontawesome.com/) for icons and social links  
-- **GitHub Pages** (initially) + **custom domain deployment** via [ashmita.ca](https://ashmita.ca)
+- **GitHub Pages** (initially) + **custom domain deployment** 
 
 ## 🌍 Hosting & Deployment
 In addition to designing the site, I learned how to:
