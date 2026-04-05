@@ -124,17 +124,17 @@ main {
 
 .photo-col {
     flex-shrink: 0;
-    width: 220px;
+    width: 235px;
 }
 
 .headshot {
-    width: 220px;
-    height: 220px;
+    width: 235px;
+    height: 235px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center top;
     display: block;
-    filter: grayscale(8%);
+    filter: grayscale(8%) brightness(1.25);
 }
 
 .text-col {
