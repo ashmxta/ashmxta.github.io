@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog — Ashmita Bhattacharyya</title>
-    <link rel="stylesheet" href="styles.css?v=2">
+    <title>Welcome to my blog! — Ashmita Bhattacharyya</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             </a>
         </div>
         <div class="header-right">
-            <a href="index.html" class="blog-link">home</a>
+            <a href="../index.html" class="blog-link">home</a>
             <button class="theme-toggle" aria-label="Toggle theme">
                 <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
                 <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
@@ -28,18 +28,31 @@
         </div>
     </header>
 
-    <main>
-        <div class="blog-index-container">
-            <h1 class="blog-index-title">blog</h1>
-            <ul class="post-list">
-                <li class="post-item">
-                    <a href="blog/blog-0.html" class="post-item-link">
-                        <span class="post-item-title">Welcome to my blog!</span>
-                        <span class="post-item-date">April 2026</span>
-                    </a>
-                </li>
+    <main class="post-main">
+        <div class="post-container">
+            <nav class="post-breadcrumb">
+                <a href="../blog.html">← blog</a>
+            </nav>
+            <article>
+                <header class="post-header">
+                    <h1 class="post-title">Welcome to my blog!</h1>
+                    <time class="post-date">April 2026</time>
+                </header>
+                <div class="post-body">
+                    <p>I've been meaning to start a blog for a while, mostly as a place to write things down; ideas I'm working through, notes from papers I've read, things I've learned that I don't want to forget.</p>
 
-            </ul>
+                    <p>I'm not sure what the cadence will look like. Probably sporadic. But I'd rather have somewhere to put things than not.</p>
+
+                    <p>The main categories I expect to write in:</p>
+                    <ul>
+                        <li>ML notes: reading notes, derivations, things I find interesting</li>
+                        <li>Research thoughts: half-formed ideas and observations</li>
+                        <li>Misc: everything else</li>
+                    </ul>
+
+                    <p>If you're reading this, hope something here is useful or interesting to you :)</p>
+                </div>
+            </article>
         </div>
     </main>
 
