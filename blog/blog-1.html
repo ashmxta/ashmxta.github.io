@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog — Ashmita Bhattacharyya</title>
-    <link rel="stylesheet" href="styles.css?v=2">
+    <title>What machines don't have — Ashmita Bhattacharyya</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             </a>
         </div>
         <div class="header-right">
-            <a href="index.html" class="blog-link">home</a>
+            <a href="../index.html" class="blog-link">home</a>
             <button class="theme-toggle" aria-label="Toggle theme">
                 <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
                 <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
@@ -28,24 +28,32 @@
         </div>
     </header>
 
-    <main>
-        <div class="blog-index-container">
-            <h1 class="blog-index-title">blog</h1>
-            <ul class="post-list">
-                <li class="post-item">
-                    <a href="blog/blog-0.html" class="post-item-link">
-                        <span class="post-item-title">Welcome to my blog!</span>
-                        <span class="post-item-date">April 2026</span>
-                    </a>
-                </li>
-                <li class="post-item">
-                    <a href="blog/blog-1.html" class="post-item-link">
-                        <span class="post-item-title">What machines don't have</span>
-                        <span class="post-item-date">April 2026</span>
-                    </a>
-                </li>
+    <main class="post-main">
+        <div class="post-container">
+            <nav class="post-breadcrumb">
+                <a href="../blog.html">← blog</a>
+            </nav>
+            <article>
+                <header class="post-header">
+                    <h1 class="post-title">What machines don't have</h1>
+                    <time class="post-date">April 2026</time>
+                </header>
+                <div class="post-body">
+                    <p>Over the past eight months, I have been working extensively with looped transformer models for ARC-AGI. The goal, broadly, is to bridge the gap between machine and human-level reasoning: to build systems that can generalize the way we do. Spending this much time thinking about that gap will inevitably make you start asking what the gap actually is. What does human reasoning have that machine reasoning doesn't?</p>
 
-            </ul>
+                    <p>That question led me to Neil Lawrence's <a href="https://arxiv.org/abs/1705.07996" target="_blank" rel="noopener"><em>Living Together: Mind and Machine Intelligence</em></a>, and I think his framing is one of the most clarifying I've come across.</p>
+
+                    <h2>The embodiment gap</h2>
+
+                    <p>Lawrence has a useful framing: instead of asking how intelligent machines are, ask about their <em>embodiment factor</em>: the ratio between how much they can compute and how much they can communicate.</p>
+
+                    <p>For humans, this ratio is enormous. We process something on the order of an exaflop internally, but can only communicate at around 100 bits per second. We are bottlenecked. Everything we think stays mostly inside us; what we share is a tiny, carefully compressed signal. Lawrence argues this constraint is actually foundational to how human intelligence works. We evolved to infer, to read intent, to predict what others will do, precisely because we can't just broadcast our full internal state to one another.</p>
+
+                    <p>Machines have the opposite problem. A large model can push gigabits of data per second, but its compute relative to that bandwidth is comparatively small. It doesn't have an interior that dwarfs its exterior. In some sense, it has no inside.</p>
+
+                    <p>The more unsettling point Lawrence makes: the real risk isn't a conscious machine that decides to harm us. It's a non-conscious system, one with no moral reasoning, no sense of stakes, operating at scale, quietly shaping behavior and preferences without anyone deliberating about whether it should. The danger isn't the machine that thinks. It's the one that doesn't.</p>
+                </div>
+            </article>
         </div>
     </main>
 
