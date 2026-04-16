@@ -359,7 +359,7 @@ details[open] summary::before {
 /* ── Blog index ────────────────────────────────────────────────── */
 .blog-index-container {
     max-width: 640px;
-    margin: 0 auto;
+    margin: 0;
     padding: 64px 40px 100px;
 }
 
@@ -424,7 +424,7 @@ details[open] summary::before {
 
 .post-container {
     max-width: 640px;
-    margin: 0 auto;
+    margin: 0;
     padding: 64px 40px 100px;
 }
 
